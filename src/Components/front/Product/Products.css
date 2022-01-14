@@ -1,0 +1,88 @@
+.product-image{
+    width: 60%;
+    transition: all 1s ease;
+}
+
+.product-image:hover{
+    transform: scale(1.1);
+}
+
+.product-card{
+    margin: 20px;
+}
+
+.product-title{
+    text-align: center;
+    font-family: monospace;
+    font-size: 19px;
+    font-weight: bold;
+    color: grey;
+}
+
+.product-price{
+    text-align: center;
+    color: rgb(77, 75, 75);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.addtocart{
+    background-color: rgb(29, 29, 87);
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.addtocart:hover{
+    background-color: grey;
+}
+
+.addtocart:active{
+    transform: translateY(2px);
+}
+.products-wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-image-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.addbutton{
+    text-align: center;
+}
+
+.outofstock{
+    background-color: rgb(247, 2, 2);
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    pointer-events: none;
+}
+
+.product{
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+
+.titleproducts{
+    font-weight: 300;
+}
+

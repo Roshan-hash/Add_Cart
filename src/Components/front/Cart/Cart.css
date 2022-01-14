@@ -1,0 +1,149 @@
+.Introcontainer{
+    height: calc(100vh - 50px);   
+    display: flex;
+    padding:20px;
+    
+}
+.IntroLeft{
+    width: 70%;
+   
+}
+
+.Introright{
+    width: 30%;
+}
+
+
+.cart-container{
+    
+    padding: 9px 30px;
+    box-shadow: 11px 15px 18px -10px rgba(0,0,0,0.27);
+}
+
+.cart-itemscontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 90px;
+}
+
+.cart-product-image{
+    margin: 15px;
+}
+
+.cart-image{
+    width: 150px;
+    height: 140px;
+
+}
+
+.cart-items-title{
+    margin: 45px;
+}
+
+.cart-items-price{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cart-button{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Addproduct{
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: 800;
+    background-color: grey;
+    color: white;
+    border: none;
+}
+
+.Subproduct{
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: 800;
+    background-color: grey;
+    color: white;
+    border: none;
+}
+
+.productquatity{
+    margin: 10px;
+    border: 1px solid;
+    padding: 1px 12px;
+}
+
+.placeorder{
+    text-align: end;
+}
+
+.place{
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.cart-containertitle{
+    font-size: 20px;
+}
+
+.cart-pricebill{
+    
+    padding: 10px;
+    margin-left: 30px;
+    box-shadow: 11px 15px 18px -10px rgba(0,0,0,0.27);
+}
+
+.PriceDet{
+    font-size: 19px;
+    font-weight: 700;
+    color: grey;
+}
+
+.TotalAmount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    margin: 20px 0px;
+}
+
+.TotalAmount{
+    border-top: 1px solid;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0px;
+    padding: 9px 0px;
+}
+
+.desc{
+    font-size: 17px;
+    color: grey;
+    font-weight: 700;
+}
+
+.clear-button{
+    margin-left: 99%;
+    border-radius: 50%;
+    background-color: grey;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: 4px 7px;
+    font-weight: 700;
+}
